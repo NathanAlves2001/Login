@@ -1,0 +1,46 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    overflow: hidden;
+}
+body{
+    font-size: 100%;
+}
+#logo{
+    height: 40px;
+    width: 70px;
+    display: flex;
+    left: 50%;
+}
+header{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    margin: 0px;
+    border: 1px solid white ;
+    padding-right: 0%;
+    right: 0%;  
+    justify-content: center;  
+    padding-top: 2px;
+    align-items: center;
+}
+#lista{
+    list-style: none;
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 100%;
+    color: blue;
+    gap: 35px;
+}
+video{
+    width: 102vw;
+    height: 106vh;
+    position: absolute;
+    border-left: none;
+    right: -1vw;
+    top: -1vw;
+}
+.menu1{
+    color: white;
+}
+

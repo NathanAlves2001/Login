@@ -27,15 +27,17 @@ header{
     border-radius: 45%;
     width: 50%;
     align-content: center;
+    height: 65px;
 }
 #lista{
     list-style: none;
     display: flex;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 100%;
+    font-family: inconsolada;
+    font-size: 180%;
     color: blue;
     gap: 35px;
 }
+@import url('https://fonts.googleapis.com/css2?family= Inconsolata :wght@900 & display=swap');
 video{
     width: 102vw;
     height: 106vh;
@@ -46,5 +48,6 @@ video{
 }
 .menu1{
     color: white;
+    text-decoration: none;
 }
 

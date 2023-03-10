@@ -16,13 +16,17 @@ header{
     display: flex;
     flex-direction: row;
     position: relative;
-    margin: 0px;
-    border: 1px solid white ;
-    padding-right: 0%;
-    right: 0%;  
+    margin: 50px;
+    padding-right: 0%;  
     justify-content: center;  
     padding-top: 2px;
     align-items: center;
+    margin: 5px;
+    left: 25%;
+    border: 1px solid white;
+    border-radius: 45%;
+    width: 50%;
+    align-content: center;
 }
 #lista{
     list-style: none;

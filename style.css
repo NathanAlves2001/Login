@@ -23,11 +23,12 @@ header{
     align-items: center;
     margin: 5px;
     left: 25%;
-    border: 1px solid white;
+    border: 2px solid black;
     border-radius: 45%;
     width: 50%;
     align-content: center;
     height: 65px;
+    background: #76B900;
 }
 #lista{
     list-style: none;
@@ -49,5 +50,65 @@ video{
 .menu1{
     color: white;
     text-decoration: none;
+}
+main{
+    border: none;
+    height: 68%;
+    width: 95%;
+    left: 5px;
+    padding: 2%;
+    position: absolute;
+}
+.img1{
+padding-left: 31%;
+position: absolute;
+}
+.form{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    }
+.logar{
+    padding: 10px 15px;
+    background: #75b900;
+    color: white;
+    border: none;
+    font-size: 25px;
+    justify-content: center;
+    display: flex;
+}
+.registrar{
+    padding-left: 155px;
+    background: #75b90000;
+    color: #75b900;
+    border: none;
+    left: 50%;
+    display: flex;
+    }
+#bemvindo {
+    font-size: 30px;
+    padding: 0px;
+    color: white;
+    border: none;
+    display: flex;
+    justify-content: center;
+    padding-top: 1px;
+}
+#apresentacao{
+    font-size: 20px;
+    padding: 0px;
+    color: white;
+    border: none;
+    display: flex;
+    justify-content: center;
+    padding-top: 1px;
+}
+#test1{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0%;
+    border: 1px solid red;
+    width: 250px;
 }
 

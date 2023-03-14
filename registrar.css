@@ -68,7 +68,7 @@ video{
    left: 38%;
    bottom: 40%;
    background: white ;
-   color: rgb(0, 0, 0);
+   color: rgb(255, 255, 255);
    font-family: inconsolada ;
    font-size: 25px;
 }
@@ -76,21 +76,21 @@ video{
     position: absolute;
     display: flex;
     flex-direction: column;
-    border: 1px solid #76B900;
+    border: 1px solid #75b900;
     height: 35px;
     width: 25%;
     left: 38%;
-    bottom: 30%;
-    background: white ;
-    color: black;;
+    bottom: 33%;
+    background: rgb(255, 255, 255) ;
+    color: white;;
 }
 .logar{
     position: absolute;
     height: 46px;
     width: 17%;
     left: 42%;
-    bottom: 20%;
-    background-color: #76B900;
+    bottom: 14%;
+    background-color: #75b900;
     border-radius: 15px;
     border: none;
 }
@@ -99,10 +99,11 @@ video{
     height: 46px;
     width: 16%;
     left: 42%;
-    bottom: 10%;
+    bottom: 7%;
     background-color: rgba(255, 255, 255, 0);
     border: none;
     color: white;
+    font-size: 20px;
 }
 #bemvindo{
     position: relative;
@@ -120,6 +121,18 @@ video{
     justify-content: center;
     font-size: 30px;
     height: 35px;
+}
+.senha2{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #76B900;
+    height: 35px;
+    width: 25%;
+    left: 38%;
+    bottom: 26%;
+    background: rgb(255, 255, 255) ;
+    color: rgb(0, 0, 0);;
 }
 .git{
     position: absolute;
